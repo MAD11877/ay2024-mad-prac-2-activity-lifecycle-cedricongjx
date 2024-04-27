@@ -13,17 +13,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Initialize a new User object
-        User user = new User("John Doe", "MAD Developer", 1, false);
+        User user = new User("MAD PRACTICAL", "MAD Developer", 1, false);
 
         // Get the TextViews and Button from the layout
         TextView tvName = findViewById(R.id.textView);
         TextView tvDescription = findViewById(R.id.textView3);
         Button btnFollow = findViewById(R.id.button);
 
-        // Set the TextViews with the User's name, description and default button message
+
         tvName.setText(user.name);
         tvDescription.setText(user.description);
-        btnFollow.setText("Follow"); // The text "Follow" should be set on the button
+        btnFollow.setText("Follow");
     }
 }
 
